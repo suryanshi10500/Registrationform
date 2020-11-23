@@ -1,0 +1,38 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container
+{
+	max-width: 80%;
+	background-color:lightblue;
+	padding:auto;
+	margin: auto; 
+	display: block;
+}
+.container h3,p{
+	text-align: center;
+}
+input{
+	width:70%;
+	padding: 10px;
+	margin:auto;
+}
+button{
+	width:50%;
+	margin:auto;
+	padding:10px;
+	color:yellow;
+	background-color: purple;
+	border: 2px solid;
+	border-radius: 20px;
+	cursor:pointer;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
